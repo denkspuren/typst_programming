@@ -1,2 +1,3 @@
-# typst_programming
-My experiments with Typst. Typst is a new programmable markup-based typesetting system.
+# Typst Programming
+
+My programming experiments with [Typst](https://typst.app/). Typst is a new programmable markup-based typesetting system.
