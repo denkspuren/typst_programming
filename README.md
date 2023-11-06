@@ -9,3 +9,7 @@ Typst is invented by Laurenz Mädje and presented in his Master's thesis titled 
 ## `extractText`
 
 [extractText](extractText/extractText.typ) is my very first Typst programm. It fixes an [issue](https://github.com/typst/templates/issues/12#issuecomment-1793845765) with titles in Typst's default templates.
+
+## `wrapText`
+
+Unfortunately, there is no solution in Typst to wrap text around a textbox, see [wrapText](wrapText/README.md). That's too bad!
