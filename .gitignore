@@ -1,3 +1,4 @@
+.DS_Store
 *.pdf
 !wrapText/Kahl-1999a.pdf
 !programmable-markup-language-for-typesetting.pdf
