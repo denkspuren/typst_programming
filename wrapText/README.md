@@ -11,3 +11,5 @@ Ich habe diesen Effekt nach zwei Tagen der Suche nach einem geeigneten Paket und
 Die Frage ist, ob man feinere Layout-Kontrolle in Typst über primitive Funktionen bekommen könnte. Ich weiß nicht, ob das Konzept der Galleys von Lout (das Typesetting-System von Jeff Kingston) leistungsfähig genug wäre, um als Grundlage für solche Wrapping-Lösungen zu dienen.
 
 Zum Galley-Konzept liegt ein Artikel von [Kahl (1999)](Kahl-1999a.pdf) bei.
+
+Das GitHub-Issue, dem ich dazu folgen solle, ist [Typst-Issue 533](https://github.com/typst/typst/issues/553). Meinen Fall stelle ich an [dieser Stelle](https://github.com/typst/typst/issues/553#issuecomment-1798066424) dort ebenso vor.
