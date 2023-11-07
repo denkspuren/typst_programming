@@ -51,3 +51,26 @@ Source: https://discord.com/channels/1054443721975922748/1171244599268872274
 #renderLabel(<SortArrayByKey>)
 
 Source: https://discord.com/channels/1054443721975922748/1088371919725793360/1171448834119962685
+
+== Get Initials of a Sequence of Words
+
+```typst
+#{
+  let home-place = "Federal University of Ceará"
+
+  let words = home-place.split()
+  let letters = words.map(word => word.at(0))
+
+  let capletters = letters.filter(l => upper(l) == l)
+  [
+    #letters.join() \
+    #capletters.join() \
+  ]
+}
+```<InitialsOfWords>
+
+This results in:
+
+#renderLabel(<InitialsOfWords>)
+
+Source: https://discord.com/channels/1054443721975922748/1171580507138568192
