@@ -17,3 +17,5 @@ Unfortunately, there is no solution in Typst to wrap text around a textbox, see 
 ## Literate Programming for Typst in Typst
 
 Just an idea: I guess it is possible to write Typst programms as literate programms with an appropriate Typst template.
+
+My first attempts towards this idea can be found in folder [LiterateProgramming](LiterateProgramming/)
