@@ -59,6 +59,9 @@ A more advanced solution is to embed the code in a code block and attach a label
 }
 ```
 
+`query()` always returns an array and `locate` always returns content.
+
+
 == Example: Rendering first, markup second
 
 Mathematical formulas can be beautifully typeset with Typst. Here is Pythagoras' theorem as an example.
@@ -83,23 +86,3 @@ renders as
 
 #renderLabel(<fx_x2>)
 
-For the following code: `query()` always returns an array and `locate` always returns content.
-
-/*
-#let r_text = locate(loc => {
-  let res = query(<note>, loc)
-  return eval(res.first().text)
-  }
-)
-
-#r_text
-
-On the console I get the "text" field with
-
-```
-> typst query showcase.typ "<note>" --field "text"
-[
-  "$ a^2 + b^2 = c^2 $"
-]
-```
-*/
