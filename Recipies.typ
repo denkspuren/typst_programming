@@ -12,7 +12,7 @@
 
 To force hyphenation in certain places, use `-?` for that. Example: `b-?ad hyp-?hen-?ation`
 
-Source: #link("https://discord.com/channels/1054443721975922748/1171083569192501268")
+Source: https://discord.com/channels/1054443721975922748/1171083569192501268
 
 == Vertical Bar left to some text
 
@@ -33,3 +33,21 @@ Use the stroke parameter for `rect`/`box`/`block` (whatever you want to use here
 
 Source: https://discord.com/channels/1054443721975922748/1171244599268872274
 
+== Sort Arrays by Key
+
+```typst
+#{
+  let a = (2, 4, 0)
+  let b = ("typst", "world", "hello")
+  let zipped = array.zip(a, b)
+  let sorted = zipped.sorted(key: ((a, b)) => a)
+  [
+    #zipped \
+    #sorted \
+  ]
+}
+```<SortArrayByKey>
+
+#renderLabel(<SortArrayByKey>)
+
+Source: https://discord.com/channels/1054443721975922748/1088371919725793360/1171448834119962685
