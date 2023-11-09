@@ -96,10 +96,30 @@ To change the layout to a term in italics and a description in bold face:
   ..it.children.map(i => emph(i.term) +  h(0.5em) + strong(i.description))
 )
 
-/ term: lorem(100)
-/ term: description
-/ term: description
+/ term: #lorem(10)
+/ term: #lorem(5)
+/ term: #lorem(7)
 ```<termLayout>
 
 #renderLabel(<termLayout>)
 
+== List with a bullet set differently
+
+In a bullet list the bullet is formatted like this
+
+- #lorem(10)
+- #lorem(25)
+- #lorem(9)
+
+If you want to vertically center the bullet, do this:
+
+```typst
+#set list(marker: align(horizon)[•])
+- #lorem(10)
+- #lorem(25)
+- #lorem(9)
+```<listWithVerticallyCenteredBullet>
+
+#renderLabel(<listWithVerticallyCenteredBullet>)
+
+Source: https://discord.com/channels/1054443721975922748/1088371919725793360/1172273891092213871
