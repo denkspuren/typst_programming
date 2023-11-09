@@ -27,3 +27,20 @@
 
 #[ #first \ #second ]
 
+#let codeblock = [
+```typst
+#{[Hello] + [ ] + [World 1]}<onemore>
+```<hwtypst>
+]
+
+#codeblock
+
+#renderLabel(<hwtypst>)
+
+#locate(loc => query(<onemore>, loc).first())
+
+
+Test
+#let space = [ ]
+
+#{[Hello] + space + [World!]}
