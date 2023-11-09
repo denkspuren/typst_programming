@@ -74,3 +74,32 @@ This results in:
 #renderLabel(<InitialsOfWords>)
 
 Source: https://discord.com/channels/1054443721975922748/1171580507138568192
+
+== Styling a list of terms and descriptions
+
+Terms are definied here: https://typst.app/docs/reference/layout/terms/
+
+This is an example from the docs:
+
+/ Ligature: A merged glyph.
+/ Kerning: A spacing adjustment
+  between two adjacent letters.
+
+To change the layout to a term in italics and a description in bold face:
+
+#let termLayout = [ ]
+
+```typst
+#show terms: it => list(
+  marker: none,
+  body-indent: 0em,
+  ..it.children.map(i => emph(i.term) +  h(0.5em) + strong(i.description))
+)
+
+/ term: lorem(100)
+/ term: description
+/ term: description
+```<termLayout>
+
+#renderLabel(<termLayout>)
+
