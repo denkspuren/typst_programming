@@ -6,6 +6,8 @@ By chance, I found Typst on Wikipedia. Typst is mentioned in an article on types
 
 Typst is invented by Laurenz Mädje and presented in his Master's thesis titled "[A Programmable Markup Language for Typesetting](https://www.user.tu-berlin.de/laurmaedje/programmable-markup-language-for-typesetting.pdf)" (2022-09-08, TU Berlin).
 
+There is a [project](https://github.com/Myriad-Dreamin/typst.ts) that targets Typst running directly in the browser.
+
 **Experimental Package Repository**: https://github.com/typst/packages
 
 **Awesome Typst Links**: https://github.com/qjcg/awesome-typst
