@@ -11,3 +11,9 @@ signifikant #link("https://discord.com/channels/1054443721975922748/105763221267
 https://discord.com/channels/1054443721975922748/1172278048524083271/1172278634149580850
 
 Ein PR steht aus. 
+
+== Pin It
+
+"Pin things as you like, especially useful for creating slides."
+
+https://github.com/typst/packages/tree/main/packages/preview/pinit
