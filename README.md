@@ -8,6 +8,8 @@ Typst is invented by Laurenz Mädje and presented in his Master's thesis titled 
 
 There is a [project](https://github.com/Myriad-Dreamin/typst.ts) that targets Typst running directly in the browser.
 
+There is the [Typst Example Book](https://sitandr.github.io/typst-examples-book/book/) to learn a lot from.
+
 **Experimental Package Repository**: https://github.com/typst/packages
 
 **Awesome Typst Links**: https://github.com/qjcg/awesome-typst
