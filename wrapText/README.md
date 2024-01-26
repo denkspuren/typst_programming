@@ -13,3 +13,5 @@ Die Frage ist, ob man feinere Layout-Kontrolle in Typst über primitive Funktion
 Zum Galley-Konzept liegt ein Artikel von [Kahl (1999)](Kahl-1999a.pdf) bei.
 
 Das GitHub-Issue, dem ich dazu folgen solle, ist [Typst-Issue 533](https://github.com/typst/typst/issues/553). Meinen Fall stelle ich an [dieser Stelle](https://github.com/typst/typst/issues/553#issuecomment-1798066424) dort ebenso vor.
+
+Mittlerweile (26.1.2024) ist eine Implementierung umgesetzt worden ([Pull Request #357](https://github.com/typst/packages/pull/357)), die die Wrapping-Funktionalität zum Teil umsetzt: https://github.com/ntjess/wrap-it
